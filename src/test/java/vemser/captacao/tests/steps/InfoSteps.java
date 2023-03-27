@@ -30,7 +30,7 @@ public class InfoSteps extends BaseStep {
         InfoPage.fillCellphone("0000000000000");
         InfoPage.fillBirthDate(DataFactory.getBirthday());
         InfoPage.fillCity(DataFactory.getCity());
-        InfoPage.fillState(DataFactory.getState());
+        //InfoPage.fillState(DataFactory.getState());
         InfoPage.fillNeurodiversity(false);
         InfoPage.clickNextButton();
 
