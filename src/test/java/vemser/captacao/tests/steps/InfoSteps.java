@@ -203,8 +203,6 @@ public class InfoSteps extends BaseStep {
         Assert.assertEquals(FormPage.getEmailErrorMessage(), "Houve algum erro!\n" +
                 "Candidato com este e-mail já cadastrado para essa edição.");
 
-
-        /*TODO: preencher a segunda parte e fazer asserts*/
     }
     @Test
     public void testCPFCadastrado(){
@@ -247,6 +245,5 @@ public class InfoSteps extends BaseStep {
         Assert.assertEquals(FormPage.getCPFErrorMessage(), "Houve algum erro!\n" +
                 "Candidato com esse cpf já existe!");
 
-        /*TODO: preencher a segunda parte e fazer asserts*/
     }
 }
